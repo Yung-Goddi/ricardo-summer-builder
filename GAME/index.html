@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Candy Catcher — By Ricardo</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #1a0a2e;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      color: white;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.25rem;
+      text-align: center;
+      background: linear-gradient(90deg, #ffd60a, #e63946, #a8dadc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .subtitle {
+      font-size: 0.85rem;
+      color: #aaa;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    #game-wrapper {
+      position: relative;
+    }
+
+    canvas {
+      border: 3px solid #3d2057;
+      border-radius: 12px;
+      display: block;
+      box-shadow: 0 0 40px rgba(230, 57, 70, 0.3);
+    }
+
+    #hud {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+      font-size: 1rem;
+      font-weight: 600;
+      width: 100%;
+    }
+
+    #hud span { color: #ffd60a; }
+
+    #overlay {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(10, 5, 20, 0.88);
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    #overlay.hidden { display: none; }
+
+    #overlay h2 {
+      font-size: 2.2rem;
+      color: #ffd60a;
+    }
+
+    #overlay .score-display {
+      font-size: 1.4rem;
+      color: white;
+    }
+
+    #overlay .high-score {
+      font-size: 1rem;
+      color: #aaa;
+    }
+
+    #overlay .message {
+      font-size: 1rem;
+      color: #ccc;
+      text-align: center;
+      max-width: 260px;
+      line-height: 1.5;
+    }
+
+    #start-btn {
+      background: #e63946;
+      color: white;
+      border: none;
+      padding: 0.85rem 2.5rem;
+      border-radius: 50px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-top: 0.5rem;
+    }
+
+    #start-btn:hover {
+      background: #c1121f;
+      transform: scale(1.05);
+    }
+
+    .controls-hint {
+      margin-top: 0.75rem;
+      font-size: 0.8rem;
+      color: #666;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>🍬 Candy Catcher</h1>
+  <p class="subtitle">Built by Ricardo</p>
+
+  <div id="game-wrapper">
+    <div id="hud">
+      <div>Score: <span id="score-display">0</span></div>
+      <div>Lives: <span id="lives-display">❤️❤️❤️</span></div>
+      <div>Best: <span id="best-display">0</span></div>
+    </div>
+    <canvas id="game-canvas" width="480" height="540"></canvas>
+
+    <div id="overlay">
+      <h2 id="overlay-title">🍬 Candy Catcher</h2>
+      <p id="overlay-score" class="score-display" style="display:none"></p>
+      <p id="overlay-best" class="high-score" style="display:none"></p>
+      <p class="message" id="overlay-message">
+        Use ← → arrow keys or move your mouse to catch falling candy.<br>
+        Miss 3 and it's game over!
+      </p>
+      <button id="start-btn">Play!</button>
+    </div>
+  </div>
+
+  <p class="controls-hint">Arrow keys or mouse to move the basket</p>
+
+  <script src="game.js"></script>
+</body>
+</html>

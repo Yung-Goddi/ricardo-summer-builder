@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Place an Order — Ricardo's Candy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="order-page">
+
+  <!-- =============================================
+       HEADER
+  ============================================== -->
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">
+        <span class="logo-icon">🍬</span>
+        <div class="logo-text">
+          <h1>Ricardo's Candy</h1>
+          <p class="tagline">Fresh. Sweet. Always in Stock.</p>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="index.html#products">Products</a>
+        <a href="index.html#about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =============================================
+       ORDER HERO
+  ============================================== -->
+  <section class="order-hero">
+    <div class="container">
+      <h2>Place Your Order</h2>
+      <p>Fill out the form below. I'll confirm and arrange pickup or delivery.</p>
+    </div>
+  </section>
+
+  <!-- =============================================
+       ORDER MAIN
+  ============================================== -->
+  <section class="order-main">
+    <div class="container">
+      <div class="order-layout">
+
+        <!-- ---- ORDER FORM ---- -->
+        <div>
+          <!-- Success message (hidden until form is submitted) -->
+          <div id="order-success" class="order-success order-form-card">
+            <div class="success-icon">🎉</div>
+            <h3>Order Received!</h3>
+            <p>
+              Thanks, <strong id="success-name"></strong>! Your order of
+              <strong id="success-total"></strong> is in.
+            </p>
+            <p>I'll reach out soon to confirm and arrange pickup or delivery.</p>
+            <a href="index.html" class="btn btn-primary" style="margin-top:1rem;">Back to Home</a>
+          </div>
+
+          <!-- The actual form -->
+          <form id="order-form" class="order-form-card" novalidate>
+
+            <!-- Section 1: Customer Info -->
+            <div class="form-section">
+              <h3>👤 Your Info</h3>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="customer-name">Full Name *</label>
+                  <input type="text" id="customer-name" placeholder="Your name" required />
+                </div>
+                <div class="form-group">
+                  <label for="customer-email">Email *</label>
+                  <input type="email" id="customer-email" placeholder="your@email.com" required />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="customer-phone">Phone / How to Reach You</label>
+                <input type="tel" id="customer-phone" placeholder="Phone number or Instagram handle" />
+              </div>
+            </div>
+
+            <!-- Section 2: Order Items -->
+            <div class="form-section">
+              <h3>🍬 What Do You Want?</h3>
+
+              <div id="order-items-list" class="order-items-list">
+                <!-- First item row -->
+                <div class="order-item">
+                  <div class="form-group" style="margin-bottom:0">
+                    <label>Candy</label>
+                    <select class="product-select">
+                      <!-- Populated by JavaScript -->
+                    </select>
+                  </div>
+                  <div class="form-group" style="margin-bottom:0">
+                    <label>Qty</label>
+                    <input type="number" class="product-qty" value="1" min="1" max="20" />
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" class="add-item-btn" id="add-item-btn">
+                + Add Another Candy
+              </button>
+            </div>
+
+            <!-- Section 3: Notes -->
+            <div class="form-section">
+              <h3>📝 Anything Else?</h3>
+              <div class="form-group">
+                <label for="order-notes">Notes or Special Requests</label>
+                <textarea
+                  id="order-notes"
+                  placeholder="E.g. 'Can you have it ready by Friday?' or 'I want a mix of sour stuff'"
+                ></textarea>
+              </div>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">
+              Send My Order 🍬
+            </button>
+
+            <p style="font-size:0.8rem; color:#999; margin-top:0.75rem; text-align:center;">
+              By submitting you agree to pay upon pickup or delivery. No payment is collected here.
+            </p>
+
+          </form>
+        </div>
+
+        <!-- ---- ORDER SUMMARY SIDEBAR ---- -->
+        <div class="order-summary-card">
+          <h3>Order Summary</h3>
+          <div id="summary-items" class="summary-items">
+            <p class="summary-empty">No items selected yet</p>
+          </div>
+          <div id="summary-total" class="summary-total">
+            <span>Total</span>
+            <span class="total-amount">$0.00</span>
+          </div>
+          <p class="summary-note">
+            Payment is collected when you receive your candy — cash, Venmo, or whatever we agree on.
+          </p>
+          <hr style="margin: 1rem 0; border-color: #eee;" />
+          <p style="font-size:0.82rem; color:#888;">
+            <strong>Questions?</strong><br/>
+            Reach me at your-email@gmail.com
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       FOOTER
+  ============================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-icon">🍬</span>
+          <strong>Ricardo's Candy</strong>
+        </div>
+        <p class="footer-note">Built from scratch by Ricardo — candy entrepreneur + web developer.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

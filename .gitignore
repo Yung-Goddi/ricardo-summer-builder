@@ -1,0 +1,29 @@
+# ── macOS / Windows junk ──────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor / IDE ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*~
+
+# ── Python (the bonus scripts) ────────────────────────
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ── Files Ricardo's tools generate (keep these local) ─
+# CSV exports downloaded from Google Sheets
+sales_log.csv
+inventory.csv
+# Report produced by inventory_report.py
+report.txt
+
+# ── Secrets — never commit these ──────────────────────
+# If you ever paste your real Google Apps Script URL or any
+# private keys into a separate config file, ignore it here.
+secrets.*
+.env

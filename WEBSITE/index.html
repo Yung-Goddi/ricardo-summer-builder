@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ricardo's Candy — Sweet Deals Delivered</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- =============================================
+       HEADER / NAVIGATION
+  ============================================== -->
+  <header class="site-header">
+    <div class="container">
+      <div class="logo">
+        <span class="logo-icon">🍬</span>
+        <div class="logo-text">
+          <h1>Ricardo's Candy</h1>
+          <p class="tagline">Fresh. Sweet. Always in Stock.</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="order.html" class="btn-nav">Order Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- =============================================
+       HERO SECTION
+  ============================================== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h2>Your Favorite Candy,<br>Ready When You Are</h2>
+        <p>
+          Fresh stock of your favorite snacks — fruity, chocolatey, sour, and everything in between.
+          Order ahead and have it waiting for you.
+        </p>
+        <div class="hero-buttons">
+          <a href="order.html" class="btn btn-primary">Place an Order</a>
+          <a href="#products" class="btn btn-secondary">See What's Available</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="candy-display">
+          <span>🍭</span>
+          <span>🍫</span>
+          <span>🍬</span>
+          <span>🧁</span>
+          <span>🍡</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       PRODUCTS SECTION
+       UPDATE THE PRODUCTS ARRAY IN script.js
+       TO MATCH YOUR REAL CANDY AND PRICES
+  ============================================== -->
+  <section id="products" class="products-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>What's Available</h2>
+        <p>All candy is fresh and ready to go. Order online or catch me in person.</p>
+      </div>
+
+      <!-- Products are rendered by JavaScript from the PRODUCTS array in script.js -->
+      <div class="products-grid" id="products-grid">
+        <!-- JS fills this in -->
+      </div>
+
+      <div class="products-cta">
+        <p>Want something not listed? <a href="order.html">Put in a request</a> and I'll try to get it.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       ABOUT SECTION
+       Change this text to your own story
+  ============================================== -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <h2>About This Business</h2>
+          <p>
+            Hey, I'm Ricardo. I'm 13 and I've been running a candy business for
+            [X months/years]. I started because I wanted to learn what it's actually
+            like to run a real business — not just read about it.
+          </p>
+          <p>
+            I source my candy carefully, keep prices fair, and always make sure I have
+            your favorites in stock. I'm also building all the tech behind this business
+            myself, including this website.
+          </p>
+          <p>
+            Got a favorite candy I don't carry? Let me know — I'll try to get it.
+          </p>
+          <a href="order.html" class="btn btn-primary">Place an Order</a>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number" id="products-count">10+</span>
+            <span class="stat-label">Products</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">😊</span>
+            <span class="stat-label">Happy Customers</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">🚀</span>
+            <span class="stat-label">Fast Delivery</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">💰</span>
+            <span class="stat-label">Fair Prices</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       HOW IT WORKS
+  ============================================== -->
+  <section class="how-section">
+    <div class="container">
+      <h2>How to Order</h2>
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Browse</h3>
+          <p>Check what's available above and pick your favorites.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Order</h3>
+          <p>Fill out the order form with your name, contact info, and what you want.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Confirm</h3>
+          <p>I'll confirm your order and arrange pickup or delivery.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <h3>Enjoy</h3>
+          <p>Get your candy. Be happy.</p>
+        </div>
+      </div>
+      <div class="how-cta">
+        <a href="order.html" class="btn btn-primary">Place Your Order Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       FOOTER
+  ============================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-icon">🍬</span>
+          <strong>Ricardo's Candy</strong>
+        </div>
+        <p class="footer-note">
+          Built from scratch by Ricardo — candy entrepreneur + web developer.
+        </p>
+        <p class="footer-contact">
+          Questions? Reach out: <a href="mailto:YOUR_EMAIL_HERE">your-email@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
