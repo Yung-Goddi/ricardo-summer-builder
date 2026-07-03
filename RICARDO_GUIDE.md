@@ -109,6 +109,8 @@ When you finish an entry, click **Copy as Markdown** (or **Download**) and paste
 
 > No browser handy? `WORK_LOG.md` is the exact same idea in plain text. Either way, **that's the answer to "where do I write my notes?"**
 
+📓 **Want the quick version?** Read [`HOW_TO_JOURNAL.md`](HOW_TO_JOURNAL.md) — it's a one-minute guide to the whole routine. Keep it open your first few sessions until it becomes a habit.
+
 ---
 
 ## Your Engineering Journal (once a week)

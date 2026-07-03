@@ -21,6 +21,7 @@ Real things. Things that work. Things you can show people.
 ```
 README.md                ← You are here (start with this file)
 dashboard.html           ← ⭐ Ricardo's home page — double-click to open in your browser
+HOW_TO_JOURNAL.md        ← 📓 One-minute guide to the journal routine (read this early)
 WORK_LOG.md              ← Your notes in plain text (same idea, no browser needed)
 PARENT_GUIDE.md          ← Dad reads this
 RICARDO_GUIDE.md         ← Ricardo reads this next
@@ -50,6 +51,20 @@ BONUS/                   ← Extra projects if you want more
 - Then hit **Copy as Markdown** (or **Download**) to drop it into `WORK_LOG.md` and push to GitHub for Dad.
 
 No browser? `WORK_LOG.md` is the same thing in plain text. Either way — that's where your notes go.
+
+📓 **New to this? Read [`HOW_TO_JOURNAL.md`](HOW_TO_JOURNAL.md)** — a one-minute guide to the whole routine.
+
+---
+
+## 🚀 First Time Here?
+
+Brand new? Do exactly this — you'll be building in under two minutes:
+
+1. **Open `dashboard.html`** (double-click it — it opens in your browser)
+2. **Read [`HOW_TO_JOURNAL.md`](HOW_TO_JOURNAL.md)** (one minute, tells you the routine)
+3. **Build something.**
+4. **Make a journal entry** before you stop (click ✍️ New Journal Entry)
+5. **Commit and push your work** to GitHub
 
 ---
 
