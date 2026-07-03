@@ -1,5 +1,12 @@
 # Ricardo's Summer Builder Program v1.0
 
+> ## 🚀 Open Ricardo's Dashboard: **[Live Dashboard](https://yung-goddi.github.io/ricardo-summer-builder/dashboard.html)**
+>
+> 👆 Tap that on your phone or any computer. No download, no setup — it just opens.
+> **Bookmark it.** This is where you read your ⭐ note and write your journal every time you work.
+
+---
+
 ## Read This First
 
 ---
@@ -43,8 +50,11 @@ BONUS/                   ← Extra projects if you want more
 
 ## Where Do I Write My Notes?
 
-**Double-click `dashboard.html`.** It opens your home page in the browser, with a big
+**Open the [Live Dashboard link](https://yung-goddi.github.io/ricardo-summer-builder/dashboard.html)** (at the top of this page).
+It opens your home page in any browser — phone or computer — with a big
 **✍️ New Journal Entry** button and a list of your recent entries. That's your home base.
+
+*(On a computer with the files downloaded, you can also just double-click `dashboard.html` — same thing.)*
 
 - Every time you sit down: read the ⭐ **Start Here Next Time** box at the top.
 - Every time you stop: click **New Journal Entry** and write what you did + where to pick up.
@@ -60,7 +70,7 @@ No browser? `WORK_LOG.md` is the same thing in plain text. Either way — that's
 
 Brand new? Do exactly this — you'll be building in under two minutes:
 
-1. **Open `dashboard.html`** (double-click it — it opens in your browser)
+1. **Open the [Live Dashboard](https://yung-goddi.github.io/ricardo-summer-builder/dashboard.html)** (tap the link — it opens in your browser, no download needed)
 2. **Read [`HOW_TO_JOURNAL.md`](HOW_TO_JOURNAL.md)** (one minute, tells you the routine)
 3. **Build something.**
 4. **Make a journal entry** before you stop (click ✍️ New Journal Entry)

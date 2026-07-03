@@ -6,8 +6,9 @@
 
 ## Every time you work on your project:
 
-- [ ] ✅ **1. Open `dashboard.html`**
-  Double-click it. Your home base opens in your browser.
+- [ ] ✅ **1. Open the live dashboard link from the README.**
+  Tap **[🚀 Open Ricardo's Dashboard](https://yung-goddi.github.io/ricardo-summer-builder/dashboard.html)** — it opens in your browser on your phone or any computer. No download needed. **Bookmark it!**
+  *(On a computer with the files downloaded, double-clicking `dashboard.html` works too.)*
 
 - [ ] ⭐ **2. Read the "Start Here Next Time" box.**
   It tells you exactly where you left off. No more *"wait… where was I?"*

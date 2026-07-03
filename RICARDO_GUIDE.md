@@ -94,9 +94,15 @@ You have everything you need:
 
 ---
 
-## Your Home Base: `dashboard.html`
+## Your Home Base: The Live Dashboard
 
-There's one thing you'll open more than anything else: **`dashboard.html`**. Just double-click it and it opens your own home page in the browser.
+There's one thing you'll open more than anything else: **your dashboard.**
+
+**Open the live dashboard link from the README:** 👉 **[🚀 Open Ricardo's Dashboard](https://yung-goddi.github.io/ricardo-summer-builder/dashboard.html)**
+
+It opens right in your browser — on your phone or any computer. No download, no setup. **Bookmark it** so it's one tap away every time.
+
+*(On a computer where you've downloaded the files, double-clicking `dashboard.html` opens the exact same thing.)*
 
 It's dead simple, and it does two jobs:
 
@@ -149,7 +155,7 @@ Ready? Do this in order:
 1. Read this file (you're doing it!)
 2. Do the setup: `INSTALLATION/setup_guide.md`
 3. Start your first project: `MICROBIT/README.md`
-4. **Every session from now on:** double-click `dashboard.html`, read the ⭐ box, then build. Add a New Journal Entry before you stop.
+4. **Every session from now on:** open your [Live Dashboard](https://yung-goddi.github.io/ricardo-summer-builder/dashboard.html), read the ⭐ box, then build. Add a New Journal Entry before you stop.
 
 Don't skip setup. It'll save you hours of headaches later.
 
