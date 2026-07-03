@@ -2,8 +2,11 @@
 
 ## Ricardo's Summer Builder Program — Summer 2026
 
-Update this file every week. Check off items as you complete them.
-Push it to GitHub so Dad can see your progress without asking.
+> **This is your big-picture MAP, not your daily notebook.**
+> Your day-to-day notes, questions, and "where do I start next time" all live in **`WORK_LOG.md`**.
+> Come here now and then to check off big milestones and see the whole summer at a glance.
+
+Check off items as you complete them. Push it to GitHub so Dad can see your progress without asking.
 
 ---
 

@@ -1,6 +1,15 @@
 # Engineering Journal
 
-## Your Record of What You Build and Learn
+## Your *Weekly* Reflection — Portfolio Material
+
+---
+
+> **First, know the difference so you're never confused about where to write:**
+>
+> - **`WORK_LOG.md`** (project root) = your **every-session** home base. Daily notes, questions, and where to start next time. Use it constantly.
+> - **This Journal** = **once a week.** A deeper look back at what you *learned*. This is the good stuff you'll show off later in your portfolio.
+>
+> You are not doing double work. The Work Log is fast and daily. The Journal is slower and weekly. If you only have 60 seconds, use the Work Log — that's the important one.
 
 ---
 

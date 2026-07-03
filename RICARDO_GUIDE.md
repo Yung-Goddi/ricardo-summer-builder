@@ -94,16 +94,35 @@ You have everything you need:
 
 ---
 
-## Your Engineering Journal
+## Your Home Base: `dashboard.html`
 
-Every week, you write a short entry in `JOURNAL/`. Not an essay. Just:
+There's one thing you'll open more than anything else: **`dashboard.html`**. Just double-click it and it opens your own home page in the browser.
+
+It's dead simple, and it does two jobs:
+
+- **When you sit down:** read the ⭐ **Start Here Next Time** box at the top. It tells you exactly what to work on. No more "wait… where was I?"
+- **When you stop:** click the big **✍️ New Journal Entry** button. Write what you got done and where to pick up next time. Takes 60 seconds. It shows up in your list of recent entries.
+
+It's also where you dump any **questions or ideas** the moment you have them, so you don't lose them.
+
+When you finish an entry, click **Copy as Markdown** (or **Download**) and paste it into `WORK_LOG.md`, then push to GitHub so Dad can see it and it becomes part of your portfolio.
+
+> No browser handy? `WORK_LOG.md` is the exact same idea in plain text. Either way, **that's the answer to "where do I write my notes?"**
+
+---
+
+## Your Engineering Journal (once a week)
+
+The Work Log is daily and fast. The **Journal** is different: **once a week**, you write a short reflection in `JOURNAL/` about what you *learned*. Not an essay. Just:
 
 - What did you build?
 - What was the hardest part?
 - What did you figure out?
 - What do you want to build next?
 
-This takes 10 minutes. But when you look back at week 1 from week 10, you'll be amazed at how far you've come.
+This takes 10 minutes, and it becomes portfolio material you'll show off later. When you look back at week 1 from week 10, you'll be amazed at how far you've come.
+
+**Quick rule:** daily note → `WORK_LOG.md`. Weekly reflection → `JOURNAL/`. If you only have time for one, do the Work Log.
 
 ---
 
@@ -128,6 +147,7 @@ Ready? Do this in order:
 1. Read this file (you're doing it!)
 2. Do the setup: `INSTALLATION/setup_guide.md`
 3. Start your first project: `MICROBIT/README.md`
+4. **Every session from now on:** double-click `dashboard.html`, read the ⭐ box, then build. Add a New Journal Entry before you stop.
 
 Don't skip setup. It'll save you hours of headaches later.
 

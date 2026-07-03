@@ -9,6 +9,9 @@ desktop.ini
 *.swp
 *~
 
+# ── Local preview tooling (not part of the packet) ────
+.claude/
+
 # ── Python (the bonus scripts) ────────────────────────
 __pycache__/
 *.pyc
